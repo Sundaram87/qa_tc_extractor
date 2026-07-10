@@ -14,7 +14,7 @@ json
       "args": ["-y", "@jetbrains/youtrack-mcp-server"],
       "env": {
         "YOUTRACK_URL": "https://youtrack.cloud",
-        "YOUTRACK_TOKEN": "your_youtrack_permanent_token"
+        "YOUTRACK_TOKEN": "perm-c2t1bWFyYXY=.NTAtMTE0OA==.ZUs9uBckTS6VcclegPdqf0CmAf9ZZ5"
       }
     }
   }
