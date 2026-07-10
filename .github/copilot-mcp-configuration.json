@@ -1,4 +1,3 @@
-json
 {
   "mcpServers": {
     "testrail-qa-connector": {
@@ -6,14 +5,14 @@ json
       "args": ["C:/Users/ALE/testrail-mcp/dist/index.js"],
       "env": {
         "TESTRAIL_BASE_URL": "https://ale-international.com",
-        "TESTRAIL_USERNAME": "srinivasan.kumaravel@al-enterprise.com"
+        "TESTRAIL_USERNAME": "srinivasan.kumaravel@al-enterprise.com",
       }
     },
     "youtrack-issue-connector": {
       "command": "npx",
       "args": ["-y", "@jetbrains/youtrack-mcp-server"],
       "env": {
-        "YOUTRACK_URL": "https://youtrack.cloud",
+        "YOUTRACK_URL": "https://al-enterprise.youtrack.cloud/",
         "YOUTRACK_TOKEN": "perm-c2t1bWFyYXY=.NTAtMTE0OA==.ZUs9uBckTS6VcclegPdqf0CmAf9ZZ5"
       }
     }
