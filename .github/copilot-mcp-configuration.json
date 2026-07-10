@@ -1,0 +1,21 @@
+json
+{
+  "mcpServers": {
+    "testrail-qa-connector": {
+      "command": "node",
+      "args": ["C:/Users/ALE/testrail-mcp/dist/index.js"],
+      "env": {
+        "TESTRAIL_BASE_URL": "https://ale-international.com",
+        "TESTRAIL_USERNAME": "srinivasan.kumaravel@al-enterprise.com"
+      }
+    },
+    "youtrack-issue-connector": {
+      "command": "npx",
+      "args": ["-y", "@jetbrains/youtrack-mcp-server"],
+      "env": {
+        "YOUTRACK_URL": "https://youtrack.cloud",
+        "YOUTRACK_TOKEN": "your_youtrack_permanent_token"
+      }
+    }
+  }
+}
