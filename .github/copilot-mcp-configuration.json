@@ -1,10 +1,10 @@
 {
   "mcpServers": {
     "testrail-qa-connector": {
-      "command": "node",
-      "args": ["C:/Users/ALE/testrail-mcp/dist/index.js"],
+      "command": "npx",
+      "args": ["-y", "mcp-server-testrail"],
       "env": {
-        "TESTRAIL_BASE_URL": "https://testrail.ale-international.com",
+        "TESTRAIL_BASE_URL": "https://ale-international.com",
         "TESTRAIL_USERNAME": "srinivasan.kumaravel@al-enterprise.com",
         "TESTRAIL_API_KEY": "I.yClcyvtCDOPdTx4Ppy-wq1HrEZhRYqRtSCNHU2n",
         "TESTRAIL_PASSWORD": "I.yClcyvtCDOPdTx4Ppy-wq1HrEZhRYqRtSCNHU2n"
@@ -14,7 +14,7 @@
       "command": "npx",
       "args": ["-y", "@jetbrains/youtrack-mcp-server"],
       "env": {
-        "YOUTRACK_URL": "https://al-enterprise.youtrack.cloud",
+        "YOUTRACK_URL": "https://youtrack.cloud",
         "YOUTRACK_TOKEN": "perm-c2t1bWFyYXY=.NTAtMTE0OA==.ZUs9uBckTS6VcclegPdqf0CmAf9ZZ5"
       }
     }
