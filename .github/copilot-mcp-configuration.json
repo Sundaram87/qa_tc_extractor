@@ -12,7 +12,7 @@
       "command": "npx",
       "args": ["-y", "@jetbrains/youtrack-mcp-server"],
       "env": {
-        "YOUTRACK_URL": "https://al-enterprise.youtrack.cloud/",
+        "YOUTRACK_URL": "https://al-enterprise.youtrack.cloud",
         "YOUTRACK_TOKEN": "perm-c2t1bWFyYXY=.NTAtMTE0OA==.ZUs9uBckTS6VcclegPdqf0CmAf9ZZ5"
       }
     }
