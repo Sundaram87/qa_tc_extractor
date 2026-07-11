@@ -6,7 +6,8 @@
       "env": {
         "TESTRAIL_BASE_URL": "https://testrail.ale-international.com",
         "TESTRAIL_USERNAME": "srinivasan.kumaravel@al-enterprise.com",
-        "TESTRAIL_API_KEY": "I.yClcyvtCDOPdTx4Ppy-wq1HrEZhRYqRtSCNHU2n"
+        "TESTRAIL_API_KEY": "I.yClcyvtCDOPdTx4Ppy-wq1HrEZhRYqRtSCNHU2n",
+        "TESTRAIL_PASSWORD": "I.yClcyvtCDOPdTx4Ppy-wq1HrEZhRYqRtSCNHU2n"
       }
     },
     "youtrack-issue-connector": {
